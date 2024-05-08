@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif; /* Maintains the font across all pages */
+    background-color: #f4f4f4; /* Light grey background instead of white */
+    margin: 0; /* Ensures no margin around the edges */
+    padding: 0; /* Ensures no padding within the body */
+    display: flex;
+    flex-direction: column; /* Keeps items in a vertical stack */
+    align-items: center; /* Centers content horizontally */
+    width: 100%; /* Ensures body takes full width of the viewport */
+    min-height: 100vh; /* Ensures at least full height of the viewport */
+    text-align: center; /* Centers text within each block */
+}
+
+h1, p, iframe {
+    width: 100%; /* Sets width to take up 100% of the parent container */
+    max-width: none; /* Removes the max-width restriction */
+}
+
+h1 {
+    color: #333;
+    margin-top: 10px; /* Reduces space at the top, adjust as needed */
+    font-size: 2em; /* Increases the size of the header font */
+}
+
+p {
+    color: #FFA500; /* Neon orange color */
+    margin-top: 20px; /* Maintains space between h1 and p */
+    font-size: 1.5em; /* Increases the size of the paragraph font */
+}
+
+iframe {
+    width: 100%; /* Makes iframe take up 100% of its parent container's width */
+    height: 60vh; /* Sets the height of the iframe to 60% of the viewport height */
+    border-radius: 8px;
+    margin-top: 20px; /* Space between p and iframe */
+}
